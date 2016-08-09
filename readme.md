@@ -17,13 +17,14 @@ This implementation is equipped with a SQLite database with a superuser already 
 * `./manage.py runserver`
 * Navigate to http://localhost:8000/admin
 * Login with username: admin, password: admin
-* Admin users for each of the 3 individual sites have also been set up with username: site-n-admin (e.g. site-1-admin), password: admin
+* Admin users for each of the 4 individual sites have also been set up with username: site-n-admin (e.g. site-1-admin), password: admin
 
-This example implementation includes 3 sites. You can see these at the subdomains:
+This example implementation includes 4 sites. The first three sites use one set of templates, the fourth uses site4-specific templates. You can see these at the subdomains:
 
 * http://localhost:8000
 * http://site2.localhost:8000
 * http://site3.localhost:8000
+* http://site4.localhost:8000
 
 To do:
 
@@ -32,5 +33,5 @@ To do:
 * [x] Implement settings in templates
 * [x] Create sites
 * [x] Create groups and users with limited permissions
-* [ ] Custom templates for specific sites
+* [x] Custom templates for specific sites
 * [ ] Site specific search

@@ -31,6 +31,8 @@ INSTALLED_APPS = [
     'standard_page',
     'utils',
 
+    'another',
+
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
     'wagtail.wagtailembeds',
